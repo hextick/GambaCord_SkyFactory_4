@@ -24,7 +24,9 @@ Step two(first time only): create a folder somewhere where you'd want to keep th
 Step three(first time only): Open the folder -> right click open git bash here then use these commands one by one
 
 > git config --global user.name "John Doe" (change John Doe to your username)
+>
 > git config --global user.email johndoe@example.com (change johndoe@example.com to your email)
+>
 > git clone https://github.com/hextick/GambaCord_SkyFactory_4.git
 
 Step four(first time only): open the folder GambaCord_SkyFactory_4 and open wrapper.bat using a text editor change
