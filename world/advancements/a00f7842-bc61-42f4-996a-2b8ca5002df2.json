@@ -38,8 +38,10 @@
   "sf4:age1/complete": {
     "criteria": {
       "Completed That\u0027s Dir-tree§r": "2025-07-20 06:33:56 +0200",
+      "Completed Sticky Keys§r": "2025-07-20 07:38:39 +0200",
       "Completed Root": "2025-07-20 06:33:21 +0200",
       "Completed Captain Hook§r": "2025-07-20 06:35:30 +0200",
+      "Completed Dirty Dancing§r": "2025-07-20 07:40:51 +0200",
       "Completed SkyFactory 4§r": "2025-07-20 06:33:21 +0200",
       "Completed Starting from the Bottom§r": "2025-07-20 06:34:43 +0200"
     },
@@ -251,9 +253,10 @@
   },
   "sf4:age1/dirt": {
     "criteria": {
-      "Completed Root": "2025-07-20 06:33:21 +0200"
+      "Completed Root": "2025-07-20 06:33:21 +0200",
+      "Craft Dirt Block": "2025-07-20 07:40:51 +0200"
     },
-    "done": false
+    "done": true
   },
   "sf4:age1/sapling/coal": {
     "criteria": {
@@ -284,8 +287,10 @@
     "criteria": {
       "Prestige Mode Disabled": "2025-07-20 06:33:21 +0200",
       "Completed That\u0027s Dir-tree§r": "2025-07-20 06:33:56 +0200",
+      "Completed Sticky Keys§r": "2025-07-20 07:38:39 +0200",
       "Completed Root": "2025-07-20 06:33:21 +0200",
       "Completed Captain Hook§r": "2025-07-20 06:35:30 +0200",
+      "Completed Dirty Dancing§r": "2025-07-20 07:40:51 +0200",
       "Completed SkyFactory 4§r": "2025-07-20 06:33:21 +0200",
       "Completed Starting from the Bottom§r": "2025-07-20 06:34:43 +0200"
     },
@@ -375,9 +380,10 @@
   "sf4:age1/twerk": {
     "criteria": {
       "Completed Root": "2025-07-20 06:33:21 +0200",
-      "Obtain 8 Dirt Saplings": "2025-07-20 06:36:05 +0200"
+      "Obtain 8 Dirt Saplings": "2025-07-20 06:36:05 +0200",
+      "Obtain 8 Oak Logs": "2025-07-20 07:38:39 +0200"
     },
-    "done": false
+    "done": true
   },
   "sf4:age1/cauldron": {
     "criteria": {

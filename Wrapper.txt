@@ -1,0 +1,40 @@
+REM === CONFIGURATION ===
+set REPO_URL=git@github.com:your_username/your_repo.git
+set LOCAL_DIR=minecraft_server
+set START_SCRIPT=start_server.bat
+set COMMIT_PREFIX=Auto-commit: World save after shutdown
+
+REM === CHECK REPO ===
+if not exist "%LOCAL_DIR%\.git" (
+    echo [*] Cloning repository...
+    git clone %REPO_URL% %LOCAL_DIR%
+)
+
+cd %LOCAL_DIR%
+
+REM === PULL LATEST CHANGES ===
+echo [*] Pulling latest changes...
+git pull
+
+REM === RUN SERVER SCRIPT ===
+echo [*] Running server start script and waiting for it to finish...
+call %START_SCRIPT%
+
+REM === AFTER SERVER SCRIPT ENDS ===
+echo [*] Server stopped. Checking for changes...
+
+git add -A
+
+git diff --cached --quiet
+if %errorlevel% NEQ 0 (
+    for /f %%i in ('powershell -Command "Get-Date -Format yyyy-MM-ddTHH:mm:ssZ"') do set TIMESTAMP=%%i
+    git commit -m "%COMMIT_PREFIX% at %TIMESTAMP% UTC"
+    git push
+    echo [*] Changes pushed to GitHub.
+) else (
+    echo [*] No changes to commit.
+)
+
+cd ..
+echo [*] Done.
+pause
