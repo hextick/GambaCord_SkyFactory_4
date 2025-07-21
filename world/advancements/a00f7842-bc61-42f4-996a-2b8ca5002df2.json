@@ -98,9 +98,17 @@
     },
     "done": true
   },
+  "compactmachines:test/7x7x7": {
+    "criteria": {
+      "Obtain Netherrack": "2025-07-21 06:55:19 +0200"
+    },
+    "done": false
+  },
   "sf4:age_storage/complete_no_prestige": {
     "criteria": {
       "Prestige Mode Disabled": "2025-07-20 06:33:21 +0200",
+      "Completed CAT 5§r": "2025-07-21 06:21:01 +0200",
+      "Completed I WANT IT NOW!§r": "2025-07-21 06:37:01 +0200",
       "Completed Wood You Hand Me That Crate Please?§r": "2025-07-20 14:47:24 +0200",
       "Completed Age of Storage§r": "2025-07-20 06:33:20 +0200",
       "Completed Hop to It§r": "2025-07-20 15:08:22 +0200"
@@ -167,6 +175,8 @@
   },
   "sf4:age_storage/complete": {
     "criteria": {
+      "Completed CAT 5§r": "2025-07-21 06:21:01 +0200",
+      "Completed I WANT IT NOW!§r": "2025-07-21 06:37:01 +0200",
       "Completed Wood You Hand Me That Crate Please?§r": "2025-07-20 14:47:24 +0200",
       "Completed Age of Storage§r": "2025-07-20 06:33:20 +0200",
       "Completed Hop to It§r": "2025-07-20 15:08:22 +0200"
@@ -223,18 +233,38 @@
     },
     "done": true
   },
+  "sf4:age_exploration/nether": {
+    "criteria": {
+      "Entered Nether": "2025-07-21 06:54:30 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_enhancement/craftingupgrade": {
+    "criteria": {
+      "Eat Cyclic Crafting Upgrade": "2025-07-21 07:09:30 +0200"
+    },
+    "done": true
+  },
   "hardcore:hardcore/forgivingvoid": {
     "criteria": {
       "Completed Age of Exploration§r": "2025-07-20 06:33:20 +0200"
     },
     "done": false
   },
+  "sf4:age_storage/simplestoragerequest": {
+    "criteria": {
+      "Obtain Request Block": "2025-07-21 06:37:01 +0200"
+    },
+    "done": true
+  },
   "sf4:age_enhancement/completenoprestige": {
     "criteria": {
+      "Completed Paxel Rose§r": "2025-07-21 06:50:36 +0200",
       "Prestige Mode Disabled": "2025-07-20 06:33:21 +0200",
       "Completed Getting Warmer§r": "2025-07-20 14:34:37 +0200",
       "Completed To Be ORe Not to Be§r": "2025-07-20 14:34:37 +0200",
       "Completed Age of Enhancement§r": "2025-07-20 06:33:20 +0200",
+      "Completed Edible Arrangements§r": "2025-07-21 07:09:30 +0200",
       "Completed Ore\u0027nt You Glad I Didn\u0027t Say Banana§r": "2025-07-20 14:19:47 +0200"
     },
     "done": false
@@ -313,6 +343,8 @@
   "sf4:age_exploration/completenoprestige": {
     "criteria": {
       "Completed Age of Exploration§r": "2025-07-20 06:33:20 +0200",
+      "Completed Nether Here Nor There§r": "2025-07-21 06:54:30 +0200",
+      "Completed No Cake Like Home§r": "2025-07-21 06:54:30 +0200",
       "Prestige Mode Disabled": "2025-07-20 06:33:21 +0200"
     },
     "done": false
@@ -426,6 +458,12 @@
       "Obtain Lava Clay Bucket": "2025-07-20 09:33:45 +0200"
     },
     "done": true
+  },
+  "pacifist:pacifist_run/lose": {
+    "criteria": {
+      "killed poor innocent creature": "2025-07-21 06:09:25 +0200"
+    },
+    "done": false
   },
   "sf4:age1/root": {
     "criteria": {
@@ -543,9 +581,17 @@
     },
     "done": true
   },
+  "sf4:age_exploration/overworldcake": {
+    "criteria": {
+      "Obtain Overworld Cake": "2025-07-21 06:54:30 +0200"
+    },
+    "done": true
+  },
   "sf4:age_exploration/complete": {
     "criteria": {
-      "Completed Age of Exploration§r": "2025-07-20 06:33:20 +0200"
+      "Completed Age of Exploration§r": "2025-07-20 06:33:20 +0200",
+      "Completed Nether Here Nor There§r": "2025-07-21 06:54:30 +0200",
+      "Completed No Cake Like Home§r": "2025-07-21 06:54:30 +0200"
     },
     "done": false
   },
@@ -652,6 +698,7 @@
       "Obtain Lead Sapling": "2025-07-20 15:30:41 +0200",
       "Obtain Silver Sapling": "2025-07-21 05:01:32 +0200",
       "Obtain Coal Sapling": "2025-07-20 14:42:38 +0200",
+      "Obtain Netherrack Sapling": "2025-07-21 06:58:10 +0200",
       "Obtain Diamond Sapling": "2025-07-21 05:08:29 +0200",
       "Obtain Cottonwood Sapling": "2025-07-20 15:24:32 +0200",
       "Obtain Lapis Sapling": "2025-07-20 15:26:34 +0200",
@@ -699,6 +746,12 @@
     "criteria": {
       "Completed Root": "2025-07-20 06:33:21 +0200",
       "Obtain Coal": "2025-07-21 04:17:37 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_farming/cowjar": {
+    "criteria": {
+      "Obtain Cow in a Jar": "2025-07-21 06:44:00 +0200"
     },
     "done": true
   },
@@ -754,6 +807,12 @@
     },
     "done": true
   },
+  "sf4:age_storage/simplestoragecable": {
+    "criteria": {
+      "Obtain Network Cable": "2025-07-21 06:21:01 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/dirt": {
     "criteria": {
       "Completed Root": "2025-07-20 06:33:21 +0200",
@@ -770,9 +829,11 @@
   },
   "sf4:age_enhancement/complete": {
     "criteria": {
+      "Completed Paxel Rose§r": "2025-07-21 06:50:36 +0200",
       "Completed Getting Warmer§r": "2025-07-20 14:34:37 +0200",
       "Completed To Be ORe Not to Be§r": "2025-07-20 14:34:37 +0200",
       "Completed Age of Enhancement§r": "2025-07-20 06:33:20 +0200",
+      "Completed Edible Arrangements§r": "2025-07-21 07:09:30 +0200",
       "Completed Ore\u0027nt You Glad I Didn\u0027t Say Banana§r": "2025-07-20 14:19:47 +0200"
     },
     "done": false
@@ -807,6 +868,12 @@
     "criteria": {
       "Completed Root": "2025-07-20 06:33:21 +0200",
       "Obtain Stone Crook": "2025-07-20 14:42:36 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_enhancement/paxel": {
+    "criteria": {
+      "Obtain Pickle Tweaks Diamond Paxel": "2025-07-21 06:50:36 +0200"
     },
     "done": true
   },
@@ -890,6 +957,12 @@
     },
     "done": true
   },
+  "hardcore:hardcore/survive": {
+    "criteria": {
+      "Get killed": "2025-07-21 07:00:33 +0200"
+    },
+    "done": false
+  },
   "sf4:age1/clay_bucket": {
     "criteria": {
       "Obtain Unfired Clay Bucket": "2025-07-20 09:19:01 +0200",
@@ -903,12 +976,19 @@
     },
     "done": false
   },
+  "sf4:age_exploration/dragonkill": {
+    "criteria": {
+      "Enter Custom End Dimension": "2025-07-21 06:54:30 +0200"
+    },
+    "done": false
+  },
   "sf4:age_farming/complete": {
     "criteria": {
       "Completed Sugar Daddy§r": "2025-07-21 04:51:51 +0200",
       "Completed Bonsai!!!§r": "2025-07-20 13:24:43 +0200",
       "Completed Citizen Cane§r": "2025-07-20 13:27:32 +0200",
       "Completed Shredded Wheat§r": "2025-07-20 15:42:49 +0200",
+      "Completed Condensed Milk§r": "2025-07-21 06:44:00 +0200",
       "Completed Age of Farming§r": "2025-07-20 06:33:20 +0200",
       "Completed This Little Piggy§r": "2025-07-21 04:28:24 +0200"
     },
@@ -968,6 +1048,7 @@
       "Prestige Mode Disabled": "2025-07-20 06:33:21 +0200",
       "Completed Citizen Cane§r": "2025-07-20 13:27:32 +0200",
       "Completed Shredded Wheat§r": "2025-07-20 15:42:49 +0200",
+      "Completed Condensed Milk§r": "2025-07-21 06:44:00 +0200",
       "Completed Fertile Soil§r": "2025-07-21 05:20:42 +0200",
       "Completed This Little Piggy§r": "2025-07-21 04:28:24 +0200",
       "Completed Sugar Daddy§r": "2025-07-21 04:51:51 +0200",
